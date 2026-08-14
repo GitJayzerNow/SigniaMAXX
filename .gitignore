@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+backend/data/landmarks.csv
+backend/model/classifier.pt
+node_modules/
+.next/
+frontend/public/mediapipe/
+.env
+.DS_Store

@@ -1,0 +1,22 @@
+flask==3.0.3
+flask-cors==4.0.1
+flask-socketio==5.3.6
+python-socketio==5.11.3
+eventlet==0.36.1
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+scikit-learn==1.5.1
+pandas==2.2.2
+numpy==1.26.4
+
+# PyTorch with CUDA support for GPU-accelerated inference/training.
+# The RTX 5050 (Blackwell architecture) needs a recent PyTorch build
+# with CUDA 12.4+ wheels. Install with the extra index below rather
+# than plain `pip install torch`, or the default may resolve to a
+# CPU-only or incompatible-CUDA build:
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+#
+# Then verify GPU is detected:
+#   python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
